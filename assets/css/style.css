@@ -81,6 +81,7 @@ nav img {
   padding: 4em 2em;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
   border-bottom: 1px solid black;
 }
@@ -202,4 +203,141 @@ nav img {
   #primaSec h1 {
     font-size: 4em;
   }
+
+  #primaSec {
+    background-color: #ffc017;
+    padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  #primaSec button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    width: 40%;
+  }
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+  #secondaSec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+    padding: 2em;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  div.section-header {
+    margin-bottom: 0;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  .firstArticle {
+    flex: 0 0 calc(30%);
+  }
+
+  div.article-content p,
+  h3,
+  span {
+    padding: 0.2em;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .section-header h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #555;
+  }
+
+  .numberSemitrasph {
+    font-size: 28px;
+    color: #eee;
+    font-weight: bold;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .article-content {
+    display: flex;
+    gap: 10px;
+  }
+
+  .article-content img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #secondaSec div p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+
+  #secondaSec h3 {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: bold;
+    color: #000;
+  }
+
+  #secondaSec span {
+    font-size: 13px;
+    color: #888;
+  }
+
+  #terzaSec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #terzaSec {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #terzaSec img {
+  }
+
+  img.stella {
+    width: 20px;
+    height: 20px;
+  }
+
+  #secondaSec span {
+    display: flex;
+    align-items: center;
+  }
+
+  /* L'idea era fare un div che contenesse entrambi e dividerlo in percentuali per ottenere quell'effetto ma non ho tempo, avrei dovuto iniziare subito con desktop */
 }
