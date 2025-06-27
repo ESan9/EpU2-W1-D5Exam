@@ -1,5 +1,9 @@
 /* MOBILE BASE*/
 
+svg {
+  display: NONE;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   height: 100%;
@@ -174,6 +178,7 @@ nav img {
   }
 
   svg {
+    display: block;
     margin: 0;
   }
 
