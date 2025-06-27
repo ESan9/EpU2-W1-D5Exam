@@ -1,0 +1,52 @@
+/* MOBILE BASE*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 450px;
+}
+
+h3,
+h2 {
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+nav {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.hiddenMobile {
+  display: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+nav button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  padding: 1.5em;
+}
+
+ul {
+  text-decoration: none;
+}
+
+nav img {
+  width: 120px;
+}
